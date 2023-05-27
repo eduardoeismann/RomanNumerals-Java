@@ -1,3 +1,9 @@
+package converters;
+
+import enums.RomanValues;
+import interfaces.ArabicRoman;
+import interfaces.ValueConverter;
+
 public class ConvertValueToArabic implements ValueConverter {
     private Integer sumArabic;
     private String romanValue;
